@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe"
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "user": {
+        "firstname": "Krishna Preethi",
+        "lastname": "Chitrala",
+        "email": "preethi.chitrala98@gmail.com",
+        "password": "Hello"
+      },
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+.login-container{
+    width:30%;
+    height:80vh;
+    background-color: white;
+    border-radius: 8px;
+    border:1px solid black;
+    padding: 20px;
+}
+.login{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    height: 100vh;
+    padding-top: 50px;
+    background-color: #5e5ee6;
+}
+/* .password{
+    display : flex;
+    align-items:center;
+    justify-content: space-between;
+
+} */
+
+@media screen and (max-width:1000px ){
+    .login-container{
+        width:65%
+    }
+}
+@media screen and (max-width:700px ){
+    .login-container{
+        width:45%
+    }
+}
+        
+        
+    

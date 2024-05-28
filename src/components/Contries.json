@@ -1,0 +1,94 @@
+{
+    "nationalities": [
+      {
+        "name": "United States",
+        "states": [
+          {
+            "name": "California",
+            "districts": [
+              {
+                "name": "Los Angeles",
+                "mandals": [
+                  "Beverly Hills",
+                  "Hollywood",
+                  "Santa Monica"
+                ]
+              },
+              {
+                "name": "San Francisco",
+                "mandals": [
+                  "Chinatown",
+                  "Mission District"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "New York",
+            "districts": [
+              {
+                "name": "Manhattan",
+                "mandals": [
+                  "Upper East Side",
+                  "Harlem",
+                  "Greenwich Village"
+                ]
+              },
+              {
+                "name": "Brooklyn",
+                "mandals": [
+                  "Williamsburg",
+                  "Brooklyn Heights"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "India",
+        "states": [
+          {
+            "name": "Maharashtra",
+            "districts": [
+              {
+                "name": "Mumbai",
+                "mandals": [
+                  "Andheri",
+                  "Bandra",
+                  "Dadar"
+                ]
+              },
+              {
+                "name": "Pune",
+                "mandals": [
+                  "Kothrud",
+                  "Shivaji Nagar"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tamil Nadu",
+            "districts": [
+              {
+                "name": "Chennai",
+                "mandals": [
+                  "T Nagar",
+                  "Adyar",
+                  "Anna Nagar"
+                ]
+              },
+              {
+                "name": "Coimbatore",
+                "mandals": [
+                  "Gandhipuram",
+                  "RS Puram"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

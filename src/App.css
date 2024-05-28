@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sidebar{
+     background-color: blue;
+    color: white;
+    width: 20%;
+    float: left;
+}
+.container{
+  height: 100vh;
+  /* width: 400px; */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* border: 1px solid black; */
+  
+}
+.r{
+  height: 40vh;
+  width: 2000%;
+  max-width: 400px;
+  border: 1px solid black;
+  
+}
+.n{
+  max-width: 400px;
+}
+
+.fp{
+  position: relative;
+  font-size:x-small;
+}
+/* Selection CSS */
+.selectContainer{
+  height: 100vh;
+  width: 100%;
+  display : flex ;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 100px;
+}
+.box{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 400px;
+  width: 500px;
+  padding: 0px 10px;
+}
+.dropdown{
+  width: 40% !important ;
+}
+table{
+  border: 1px solid black ;
+  width : 100% ;
+  display : block ;
+  overflow-x :auto;
+  white-space: nowrap;
+  height: 210px;
+
+}
+.opt{
+  width : 60% !important;
+}
+.addButton button{
+  border : 1px solid black;
+ border-radius: 10px;
+ background-color: white;
+ width: 100%;
+ font-size: 13px;
+}
+.prop button, .move button{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 10px;
+  width:79px ;
+  line-height: 20px;
+  font-size: 12px;
+  
+}
+.pro{
+  margin-right: 10px; 
+}
+
+.final button{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.final, .move{
+  text-align: right;
+}
+
+.addButton{
+  max-width: 100px !important;
+}
+label{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
