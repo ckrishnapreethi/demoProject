@@ -1,8 +1,13 @@
 .login-container{
     width:130%;
     height:80vh;
+<<<<<<< HEAD
     background-color: white;
     border-radius: 18px;
+=======
+    background-color: Black;
+    border-radius: 8px;
+>>>>>>> f95732f7dd2276e4a890966247c44d298037dba2
     border:1px solid black;
     padding: 20px;
 }
