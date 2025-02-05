@@ -6,7 +6,7 @@ function GlobalState({ children }) {
   const [theme, setTheme] = useState("light");
   return (
     <GlobalContext.Provider value={{ theme, setTheme }}>
-      {children}
+      {children }
     </GlobalContext.Provider>
   );
 }
