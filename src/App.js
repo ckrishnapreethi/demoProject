@@ -25,6 +25,8 @@ import DemoAPI from './components/demoAPI.js';
 import Selection from './components/Selection.js';
 
 
+
+const ListOfItems = ["product1", "Product2", "Product3"];
 function App() {
   // const[name,setName]=useState('preethi')
   // // useEffect(()=>{
@@ -76,7 +78,8 @@ function App() {
       {/* <Dropdown3/> */}
       {/* <DemoAPI /> */}
       <Selection/>
-
+      {/* <Product /> */}
+        <ContextContent />
       
     </div>
   );
